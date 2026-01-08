@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Alerta de Segurança</title>
+    <style>
+        body {
+            background-color: black;
+            color: red;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 100px;
+        }
+        h1 {
+            font-size: 48px;
+        }
+        p {
+            font-size: 22px;
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="blink">⚠️ VOCÊ FOI HACKEADO ⚠️</h1>
+    <p>Seu IP foi identificado</p>
+    <p>Atividade suspeita detectada</p>
+    <p><strong>Seu IP está sendo investigado agora...</strong></p>
+    <p>Não feche esta página</p>
+
+</body>
+</html>
